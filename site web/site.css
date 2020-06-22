@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.titulo{
+    color: red;
+    font-size: 1cm;
+}
+.lupa{
+    position: absolute;
+    top: -18px;
+    right: 184px;
+    font-size: 1cm;
+    color: white;
+}
+
+.perfil{
+    color: white;
+    position: absolute;
+    top: -18px;
+    right: 26px;
+    font-size: 1cm;
+
+}
+.poster{
+    width: 460px ;
+    height: 600px;
+}
+
+.poster:hover{
+    transform: scale3d(1,1,1);
+}
+
+.favoritos {
+    color: white;
+    position: absolute;
+    top: -18px;
+    right: 100px;
+    font-size: 1cm;
+}
+
+.subtitulo {
+    color: white;
+
+}
+
+img{
+    display: inline-block;
+    width: 260px;
+    height: 360px;
+    cursor: pointer;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+a{
+    color: red;
+    cursor: pointer;
+}
+
+.dados{
+    color: white;
+
+}
+
+.dado{
+    color: white;
+    margin-left: 20px;
+}
+
+.sinopse{
+    color: white;
+    right: 30px;
+    text-align: justify ;
+    
+}
